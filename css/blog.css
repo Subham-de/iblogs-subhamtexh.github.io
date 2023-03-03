@@ -1,0 +1,44 @@
+.blog-content h1{
+    text-align: center;
+}
+.blog-heading{
+    margin: 10px;
+    padding: 10px;
+}
+.blog-display{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 4px;
+}
+.social span{
+    margin: 0px 6px;
+}
+.blog-content p{
+    font-size: 18px;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+.article {
+    display: flex;
+    font-size: 12px;
+}
+.more{
+    flex-direction: column;
+}
+.articles{
+    margin: 0px 432px;
+}
+.img-blog img{
+    width: 100%;
+    height: 60vh;
+}
+.article-content-1 {
+    align-self: center;
+    margin: 53px;
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+}

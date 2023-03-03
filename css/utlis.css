@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Shantell+Sans:ital,wght@0,400;1,300&display=swap');
+:root {
+    --main-bg-color:#bd6418;
+    --font1:'Roboto', sans-serif;
+    --font2: 'Shantell Sans';
+    --font3:'Poppins', sans-serif;
+
+  }
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 6px 13px;
+    font-family: var(--font2);
+    border: 2px solid var(--main-bg-color);
+    margin: 0px 5px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: whitesmoke;
+    background-color: var(--main-bg-color);
+}
+
+.font1{
+    font-family: var(--font2);
+}
+.form-input{
+    font-family: var(--font2);
+    padding: 8px 8px;
+    border: 2px solid var(--main-bg-color);
+    font-size: 12px;
+    border-radius: 6px;
+    width: 133px;
+}
+.footer a:hover{
+        color: var(--main-bg-color);
+}

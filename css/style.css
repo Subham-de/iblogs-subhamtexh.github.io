@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    /* height: 74px; */
+    /* background-color: red; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font1);
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+    font-size: 20px;
+}
+.article-content a {
+    text-decoration: none;
+    color: black;
+}
+.article-content-1 a {
+    text-decoration: none;
+    color: black;
+}
+.nav-left {
+    font-size: 24px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0px 75px;
+    font-size: 15px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0px 25px;
+    font-family: var(--font2);
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bold;
+
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    position: relative;
+    padding: 30px
+}
+
+.content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: inherit;
+    margin-top: -20px;
+    opacity: 0.15;
+    background-image: url('../Typewriter\ Vector.jpg');
+}
+
+.content-left {
+    padding: 30px;
+    font-family: var(--font2);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-left p {
+    margin-top: 20px;
+}
+
+.content-right {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 240px;
+    border: 1px solid black;
+}
+
+.articles {
+    padding: 20px;
+}
+
+.article {
+    display: flex;
+}
+
+.article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.article-content-1 {
+    align-self: center;
+    margin: 75px;
+}
+
+
+/* .articles{} */
+.next-year {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    right: 351px;
+    margin-top: 90px;
+}
+.next-year div{
+    margin: 10px;
+}
+.nav-left span:hover {
+    cursor: pointer;
+    color: var(--main-bg-color);
+}
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}
+
+.footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer a:hover{
+    color: black;
+}

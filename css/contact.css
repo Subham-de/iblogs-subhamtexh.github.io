@@ -1,0 +1,40 @@
+.contact-content {
+    height: 295px;
+    height: 70vh;
+    position: relative;
+    padding: 9px;
+    margin-top: 32px;
+    overflow: hidden;
+}
+.nav-left a {
+    text-decoration: none;
+    color: black;
+}
+.nav-left a:hover {
+    color: var(--main-bg-color);
+}
+.contact-content::after{
+    z-index: -1;
+    content: "";
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: inherit;
+    opacity: 0.15;
+    background-image: url('../Typewriter\ Vector.jpg');
+}
+.contact-content h2{
+    margin: 10px 75px;
+}
+.contact-form .form-box{
+    margin: 7px 70px;
+}
+.form-box input,textarea{
+    border: 1px solid var(--main-bg-color);
+    border-radius: 3px;
+    width: 52vw;
+    margin: 8px;
+    padding: 6px 9px;
+}
